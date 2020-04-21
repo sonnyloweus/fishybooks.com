@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="server" href="index.php">
+    <title>JJ Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--Main Page-->
+<!--Upper Page Header-->
+<header>
+    
+    <!--Title-->
+    <div class="UpperHeader">
+        <h1 id="head">The Jumpin' Juice Company</h1>
+    </div>
+    
+    <!--Navigation Bar-->
+    <div class="icon-bar">
+        <a class="active" href="index.html">Home</a> 
+        <a href="Drinks.html">Drinks</a> 
+        <a href="Locations.html">Locations</a> 
+        <a href="Coupons.html">Coupons</a>
+        <a href="forms.html">Sign Up</a> 
+    </div>
+    
+    <img id="titleimg" src="juice_titleimg.jpg">
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+</header>
+    
+<!--Main Content Area-->
+<section>
+    <div class="row">
+        
+        <article>
+            <div class="column" >
+                <h2>Our Drinks</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+            </div>
+        </article>
+        
+        <article>
+            <div class="column">
+                <h2 id="AboutUs">About Us</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+            </div>
+        </article> 
+        
+        <article>
+            <div class="column">
+                <h2>Our Mission</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+            </div>
+        </article>
+        
+    </div>
+</section>  
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Drinks.html">New Drink: Citrus Lover~<img id="titleimg" src="juice_citrus.png"></a>
+    <a href="forms.html">New Coupons!<img id="titleimg" src="Coupons.png"></a>
+    <a href="index.html">Home</a>
+</div>
+   
+<hr>      
+    
+<p id="Copyright">Copyright © 2018</p>
+ 
+    
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>

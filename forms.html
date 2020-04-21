@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>JJ Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--Main Page-->
+<!--Upper Page Header-->
+<header>
+    
+    <!--Title-->
+    <div class="UpperHeader">
+        <h1 id="head">The Jumpin' Juice Company</h1>
+    </div>
+    
+    <!--Navigation Bar-->
+    <div class="icon-bar">
+        <a href="index.html">Home</a> 
+        <a href="Drinks.html">Drinks</a> 
+        <a href="Locations.html">Locations</a> 
+        <a href="Coupons.html">Coupons</a>
+        <a class="active" href="forms.html">Sign Up</a> 
+    </div>
+    
+    <img id="titleimg" src="Coupon-Thumbnail.png">
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+</header>
+    
+<!--Main Content Area-->
+<section>
+    <form class="forms" action="">
+        
+        <div>
+            <h1>Sign Up</h1>
+            <h3>Sign up to get notified when new things happen and get coupons.</h3>
+            <br><br>
+            
+            <div id="forms">
+            
+                    First name:<br>
+                <input  id="firstname" style="width:50%;" type="text" name="firstname" value="">
+                <br><br>
+            
+                    Last name:<br>
+                <input id="lastname" style="width:50%;" type="text" name="lastname" value="">
+                <br><br>
+            
+                    Email:<br>
+                <input id="Email" style="width:65%;" type="text" name="gmail" value="@gmail.com">
+                <br><br>
+            
+                    Age:<br>
+                <input id="age" style="width:15%;" type="text" name="numbers" value="">
+                <br><br>
+            
+                <div id="gender">
+                    <input type="radio" name="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other <br><br>  
+                </div>
+        
+                <input onclick="myFunction()" type="submit" value="Submit">
+                <input type="reset" value="reset">
+                
+            </div>
+            
+            <img style="padding-top: 20px; align-content: center;" id="freecoupon" src="coupons_signup.png">
+            
+        </div>
+        
+    </form> 
+    
+    <div class="row">
+        
+        <article>
+            <div class="column" >
+                <h2>Our Drinks</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+            </div>
+        </article>
+        
+        <article>
+            <div class="column">
+                <h2 id="AboutUs">About Us</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+            </div>
+        </article> 
+        
+        <article>
+            <div class="column">
+                <h2>Our Mission</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+            </div>
+        </article>
+        
+    </div>
+    
+</section>  
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Drinks.html">New Drink: Citrus Lover~<img id="titleimg" src="juice_citrus.png"></a>
+    <a href="forms.html">New Coupons!<img id="titleimg" src="Coupons.png"></a>
+    <a href="index.html">Home</a>
+</div>
+   
+<hr>      
+    
+<p id="Copyright">Copyright © 2018</p>
+ 
+    
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+    
+var coupon = document.getElementById("freecoupon");
+coupon.style.display = "none";
+
+var firstname = document.getElementById("firstname").value;
+var lastname =  document.getElementById("lastname").value;
+var Email = document.getElementById("Email").value;
+var age =  document.getElementById("age").value;
+var gender = document.getElementById("gender").checked;
+
+
+function myFunction(){
+    var firstname = document.getElementById("firstname").value;
+    var lastname = document.getElementById("lastname").value;
+    var Email = document.getElementById("Email").value;
+    var age = document.getElementById("age").value;
+    var gender = document.getElementById("gender").value;
+    document.getElementById("forms").innerHTML = 'This is your Information { ' + firstname + '&nbsp &nbsp' + lastname + '&nbsp &nbsp &nbsp &nbsp &nbsp' + Email + '&nbsp &nbsp &nbsp &nbsp &nbsp' + age + ', &nbsp &nbsp &nbsp &nbsp &nbsp' + ' } Here is your first free coupon!';
+    coupon.style.display = "block";
+}
+    
+</script>
+</body>
+</html>

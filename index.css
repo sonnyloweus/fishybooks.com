@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+}
+
+#head {
+    max-width: 20%;
+    position: fixed;
+    top: 0.5%;
+    padding: 20px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: white ;
+    z-index: 4;
+    font-family:fantasy;
+}
+
+#titleimg {
+    margin: 0;
+    width: 100%;
+}
+
+.icon-bar {
+    margin: 0;
+    z-index: 3;
+    position:fixed;
+    overflow: auto;
+    width: 100%;
+    background-color: none;
+}
+
+.icon-bar a {
+    margin: 0;
+    float: right;
+    display: block;
+    width:6%;
+    text-align: center;
+    padding: /*top*/ 30px /*right*/30px /*bottom*/30px /*left*/ 20px;
+    transition: all 0.2s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icon-bar a:hover {
+    background-color: #13706B;
+}
+
+.active {
+    opacity: 0.2;
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.column h2{
+    text-align: center;
+}
+
+.column p{
+    padding: 8px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+#Copyright{
+    margin: 0; 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#Citrus{
+    position: absolute;
+    top: 23%;
+    Left: 15%;
+}
+
+.Ingre{
+    max-width: 20%;
+    position: absolute;
+    top: 30%;
+    Left: 18%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+span {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+}
+
+.forms {
+    position: fixed;
+    top: 15%;
+    
+    background-color: #26867c; 
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    margin-left: 27%; 
+    margin-right: 27%;
+    border-radius: 50px;
+    z-index: 7;
+    
+    text-align: center; 
+    color: white;
+}
+
+.locationslist {
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
